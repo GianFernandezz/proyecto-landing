@@ -48,10 +48,12 @@
 
       <section class="section service">
         <div class="container">
-          <h2 class="h2 section-title">
-            ¿Quieres <strong class="resaltar">evitar sanciones</strong>  <strong class="resaltar">por no contar</strong> un <strong class="resaltar">comité</strong> o <strong class="resaltar">supervisor</strong> de seguridad y salud?
-          </h2>
-          <p class="section-subtitle"> <mark>Entrenamiento + Consultoria online + Software = CERO sanciones</mark> </p>
+          <h1 class="h1 section-title">
+            ¿Quieres <strong class="resaltar">evitar sanciones</strong>  <strong class="resaltar">por no contar</strong> con un <strong class="resaltar">comité</strong> o <strong class="resaltar">supervisor</strong> de seguridad y salud?
+          </h1>
+          <div class="sombrear">
+          <p class="section-subtitle">Entrenamiento + Consultoría Online + Software = CERO sanciones</p>
+          </div>
         </div>
       </section>
 
@@ -82,9 +84,45 @@
                 <img src="./assets/images/img-1.jpg" alt="img-informativa">
             </div>
             <div class="img-info">
-                <img src="./assets/images/slider-2.jpg" alt="img-informativa">
+                <img src="./assets/images/escala-de-multas expresada-en-soles.jpg" alt="img-informativa">
             </div>
         </section>
+
+      <!-- 
+        - # Trayectoria
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <a href="https://www.linkedin.com/in/herbert-parimango/?originalSubdomain=pe">
+              <img src="./assets/images/herbert-nuevo.jpg" width="800" height="531" loading="lazy" alt="Herbert"
+              class="w-100">
+            </a>
+          </figure>
+
+          <div class="feature-content">
+
+            <a href="https://www.linkedin.com/in/herbert-parimango/?originalSubdomain=pe">
+              <p class="section-subtitle nosotros">Acerca de Herbert Parimango</p>
+
+              <h2 class="h2 section-title">Trayectoria Profesional</h2>
+
+              <p class="section-text">
+                Ing. Industrial con más de 19 años de experiencia profesional en la Gestión de Seguridad y Salud en el Trabajo y Gestión de Actividades de Alto Riesgo, ha laborado en importantes empresas del sector Industrial, Construcción y proyectos en Minería. 
+                  <br>
+                Cuenta con estudios de especialización en sistemas integrados de gestión, transformación digital, OSHA y TEEX.
+                  <br>
+                Fundador de Iteprevengo, CEPAR e ItePrevengo Software.
+
+              </p>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
 
       <!-- UN SECTION PARA COMENTARIOS CLIENTES-->
         <section class="container">
@@ -93,7 +131,7 @@
                 <div class="testimoniales"> <!-- cambiar el container-->
                     <div class="testi">
                         <div class="head">
-                            <h3 class="h2">Nuestros Clientes Opinan</h3>
+                            <h3 class="h2 section-title">Nuestros Clientes Opinan</h3>
                             <p>Testimonios..</p>
                         </div>
                         <div class="body swiper">
@@ -185,7 +223,7 @@
         <ul class="social-list">
 
           <li>
-            <a href="https://www.linkedin.com/company/iteprevengo/" class="social-link">
+            <a href="https://www.linkedin.com/in/herbert-parimango/?originalSubdomain=pe" class="social-link">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
@@ -197,13 +235,13 @@
           </li>
 
           <li>
-            <a href="https://www.iteprevengo.com/software/" class="social-link" target="_blank">
+            <a href="https://www.iteprevengo.com/" class="social-link" target="_blank">
               <ion-icon name="logo-dribbble"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="https://api.whatsapp.com/send?phone=+51943776124&text=Hola Herbert, Nececito más información de sus servicios que ofrece en su WebSite!" class="social-link" target="_blank">
+            <a href="https://wa.me/51943776124" class="social-link" target="_blank">
               <ion-icon name="logo-whatsapp"></ion-icon>
             </a>
           </li>
@@ -222,12 +260,6 @@
 
         <li>
           <p class="h4 footer-list-title">Hablemos</p>
-        </li>
-
-        <li>
-          <address class="footer-text">
-            Urb. Covicorti, Mz.A lote 18, Trujillo, Trujillo 13007, PE
-          </address>
         </li>
 
         <li>
@@ -279,14 +311,6 @@
     </div>
   </footer>
 
-
-
-
-
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
 
   <!-- 
     - ionicon

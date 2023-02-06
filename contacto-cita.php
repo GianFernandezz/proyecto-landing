@@ -40,7 +40,7 @@
         
                 <div class="description">
                     <h3>Pamela Mercado</h3>
-                    <h4>Gestor de Servicios y GH</h4>
+                    <h4>Estoy para ayudarte</h4>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem!</p> -->
                 </div>
         
@@ -58,7 +58,7 @@
         
                 <div class="description">
                     <h3>David Urbano</h3>
-                    <h4>Marketing</h4>
+                    <h4>Estoy para ayudarte</h4>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem!</p> -->
                 </div>
         
@@ -76,7 +76,7 @@
         
                 <div class="description">
                     <h3>Herbert Parimango</h3>
-                    <h4>Gerente General</h4>
+                    <h4>Estoy para ayudarte</h4>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem!</p> -->
                 </div>
         

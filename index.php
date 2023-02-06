@@ -31,6 +31,8 @@
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/alertify.min.css">
+  <!-- Default theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
   <script src="./assets/js/jquery-3.5.1.min.js"></script>
   
   
@@ -46,9 +48,9 @@
 
       <section class="section service">
         <div class="container">
-          <h2 class="h2 section-title">
-            ¿Quieres <strong class="resaltar">evitar sanciones</strong>  <strong class="resaltar">por no contar</strong> un <strong class="resaltar">comité</strong> o <strong class="resaltar">supervisor</strong> de seguridad y salud?
-          </h2>
+          <h1 class="h1 section-title">
+            ¿Quieres <strong class="resaltar">evitar sanciones</strong>  <strong class="resaltar">por no contar</strong> con un <strong class="resaltar">comité</strong> o <strong class="resaltar">supervisor</strong> de seguridad y salud?
+          </h1>
           <p class="section-subtitle">Aún sin ser un especialista y sin necesidad de un consultor en tu empresa</p>
         </div>
       </section>
@@ -65,7 +67,7 @@
 
           <div class="hero-card">
             <figure class="about-banner">
-              <img src="./assets/images/banner1.png" width="800" height="580" loading="lazy" alt="video-img"
+              <img src="./assets/images/portada-video.jpg" width="800" height="580" loading="lazy" alt="video-img"
                 class="w-100 btn-abrir">
             </figure>
   
@@ -86,18 +88,18 @@
               <li class="about-item">
                   <h3 class="card-title">
                     <button class="accordion-btn">
-                      <ion-icon name="checkmark-outline" class="check-1"></ion-icon>
+                      <ion-icon name="checkmark-outline"></ion-icon>
 
-                      <spna class="span h5">Los pasos para lograr la conformación del conteo o supervicion SST</spna>
+                      <p class="span h3">Los pasos para lograr la conformación del conteo o supervición SST</p>
                     </button>
                   </h3>
               </li>
               <li class="about-item">
                   <h3 class="card-title">
                     <button class="accordion-btn">
-                      <ion-icon name="checkmark-outline" class="check"></ion-icon>
+                      <ion-icon name="checkmark-outline"></ion-icon>
 
-                      <spna class="span h5">Nuestras alternativas para lograrlo</spna>
+                      <p class="span h3">Nuestras alternativas para lograrlo</p>
                     </button>
                   </h3>
               </li>
@@ -105,9 +107,9 @@
               <li class="about-item">
                   <h3 class="card-title">
                     <button class="accordion-btn">
-                      <ion-icon name="checkmark-outline" class="check"></ion-icon>
+                      <ion-icon name="checkmark-outline"></ion-icon>
 
-                      <spna class="span h5">Software para el proceso de elecciones</spna>
+                      <p class="span h3">Software para el proceso de elecciones</p>
                     </button>
                   </h3>
               </li>
@@ -131,8 +133,8 @@
       <div class="pop-up">
         <div class="pop-up-wrap">
           <div class="pop-up-title">
-            <h2>Ver Presentación</h2>
-                <p>"El video se reproducirá al envío de este pequeño formulario"</p>
+            <!-- <h2>"El video se reproducirá al envío de este pequeño formulario"</h2> -->
+                <!-- <p>"El video se reproducirá al envío de este pequeño formulario"</p> -->
                   
           </div>
     
@@ -151,7 +153,7 @@
 
                           <input type="text" class="fon-campo" id="nombre" name="nombre" placeholder="Esccribe tu nombre completo">
 
-                          <input type="email" class="fon-campo" id="email" name="email" placeholder="Esccribe tu correo electronico" >
+                          <input type="text" class="fon-campo" id="email" name="email" placeholder="Esccribe tu correo electronico" >
 
                           <input type="text" class="fon-campo" id="phone" name="phone" placeholder="Esccribe tu número de celular" >
 
@@ -181,20 +183,25 @@
         <div class="container">
 
           <figure class="feature-banner">
+            <a href="https://www.linkedin.com/in/herbert-parimango/?originalSubdomain=pe">
             <img src="./assets/images/herbert-nuevo.jpg" width="800" height="531" loading="lazy" alt="Herbert"
               class="w-100">
+            </a>
+            
           </figure>
 
           <div class="feature-content">
 
-            <p class="section-subtitle nosotros">Acerca de nosotros</p>
+            <a href="https://www.linkedin.com/in/herbert-parimango/?originalSubdomain=pe">
+              <p class="section-subtitle nosotros">Acerca de nosotros</p>
 
-            <h2 class="h2 section-title">¿Quiénes somos?</h2>
+              <h2 class="h2 section-title">¿Quiénes somos?</h2>
 
-            <p class="section-text">
-              Iteprevengo nace en el 2013 con el nombre de P&M HSEQ, de la mano de su fundador y CEO Ing. Herbert Parimango y un equipo de especialistas en prevención de accidentes y enfermedades ocupacionales, con el objetivo de hacer de los centros de trabajo, espacios 100% libres de accidentes. <br> 
-              Hoy, Iteprevengo renueva su compromiso de brindar servicios de soporte para la prevención de accidentes y enfermedades en el trabajo a través de la transformación digital de sus servicios y productos como Software para la gestión de seguridad y salud, Capacitaciones Virtuales, Online y presenciales , Consultorías online y semi presenciales y monitoreos de higiene ocupacional.
-            </p>
+              <p class="section-text">
+                Iteprevengo nace en el 2013 con el nombre de P&M HSEQ, de la mano de su fundador y CEO Ing. Herbert Parimango y un equipo de especialistas en prevención de accidentes y enfermedades ocupacionales, con el objetivo de hacer de los centros de trabajo, espacios 100% libres de accidentes. <br> 
+                Hoy, Iteprevengo renueva su compromiso de brindar servicios de soporte para la prevención de accidentes y enfermedades en el trabajo a través de la transformación digital de sus servicios y productos como Software para la gestión de seguridad y salud, Capacitaciones Virtuales, Online y presenciales , Consultorías online y semi presenciales y monitoreos de higiene ocupacional.
+              </p>
+            </a>
 
           </div>
 
@@ -317,7 +324,7 @@
         <ul class="social-list">
 
           <li>
-            <a href="https://www.linkedin.com/company/iteprevengo/" class="social-link">
+            <a href="https://www.linkedin.com/in/herbert-parimango/?originalSubdomain=pe" class="social-link">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
@@ -329,13 +336,13 @@
           </li>
 
           <li>
-            <a href="https://www.iteprevengo.com/software/" class="social-link" target="_blank">
+            <a href="https://www.iteprevengo.com/" class="social-link" target="_blank">
               <ion-icon name="logo-dribbble"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="https://api.whatsapp.com/send?phone=+51943776124&text=Hola Herbert, Nececito más información de sus servicios que ofrece en su WebSite!" class="social-link" target="_blank">
+            <a href="https://wa.me/51943776124" class="social-link" target="_blank">
               <ion-icon name="logo-whatsapp"></ion-icon>
             </a>
           </li>
@@ -354,12 +361,6 @@
 
         <li>
           <p class="h4 footer-list-title">Hablemos</p>
-        </li>
-
-        <li>
-          <address class="footer-text">
-            Urb. Covicorti, Mz.A lote 18, Trujillo, Trujillo 13007, PE
-          </address>
         </li>
 
         <li>
@@ -418,7 +419,7 @@
   <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/main.js"></script>
 
   <script src="./assets/js/validacion.js"></script>
   <script src="./assets/js/alertify.min.js"></script>
