@@ -61,7 +61,7 @@ document.getElementById('formulario').addEventListener('submit', (e) => {
         })
         .then(response => response.json())
         .catch(error => console.error('Error:', error))
-        .then(response => window.location.href = "./presentacion.php");
+        // .then(response => window.location.href = "./presentacion.php");
 
         
     }

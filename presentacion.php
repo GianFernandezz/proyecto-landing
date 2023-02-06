@@ -66,9 +66,10 @@
             
                 
             <div class="video-main">
-                <video autoplay controls>
+                <!-- <video autoplay controls>
                     <source src="./assets/video/video1.mp4" type="video/mp4">
-                </video>
+                </video> -->
+                <iframe src="https://player.vimeo.com/video/786406544?h=2473071faf" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             </div>
 
             

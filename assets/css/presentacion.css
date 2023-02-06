@@ -109,11 +109,11 @@
 /* VIDEO */
 
 
-.video-main video{
+.video-main iframe{
     display: block;
     margin: 5px auto;
     width: 80%;
-    height: calc(.5625 * 80vm);
+    height: calc(.88125 * 80vw);
     max-width: 1280px;
     max-height: 720px;
     min-width: 320px;

@@ -18,9 +18,7 @@ require './PHPMailer/src/SMTP.php';
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'gianfernandez.100@gmail.com';
-    // $mail->Username = 'gian.fernandez@tecsup.edu.pe';
     $mail->Password = 'ixirklncoeyrvtjg'; 
-    // $mail->Password = 'bqcffeeswulazdvx'; De EDUCATIVO
     $mail->Port = 465;
     $mail->SMTPSecure = 'ssl';
     $mail->CharSet = 'UTF-8';
