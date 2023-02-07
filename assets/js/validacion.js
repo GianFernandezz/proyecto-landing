@@ -1,7 +1,7 @@
 
 
 
-document.getElementById('formulario').addEventListener('submit', (e) => {
+document.getElementById('formulario').addEventListener('submit', async(e) => {
     e.preventDefault();
 
 
@@ -19,22 +19,27 @@ document.getElementById('formulario').addEventListener('submit', (e) => {
 
     if(nombre == null || nombre.length <2 || ExpRegularText.test(nombre)){
         alertify.error('El campo nombre es invalido');
-        nombre = document.getElementById('nombre').style.boxShadow = "0 0 5px red";   
+        nombre = document.getElementById('nombre').style.boxShadow = "0 0 5px red";
+        return false;   
     }
     else if(nombre == null || nombre.length >=35 || ExpRegularText.test(nombre)){
         alertify.error("El nombre no debe sobrepasar los 35 caracteres");
+        return false; 
     }
     else if(ExpregNum.test(nombre)){
         alertify.error("El valor no es una letra");
+        return false; 
     }
     else if(email == null || ExpRegularEmail){
         alertify.error("El campo email es invalido");
         email = document.getElementById('email').style.boxShadow = "0 0 5px red";
+        return false; 
        
     }
     else if(phone == null || ExpregTel){
         alertify.error("El campo phone es invalido");
         phone = document.getElementById('phone').style.boxShadow = "0 0 5px red";
+        return false; 
        
     }
 
@@ -54,16 +59,14 @@ document.getElementById('formulario').addEventListener('submit', (e) => {
         formData.append('phone', phone);
         formData.append('send', '');
 
+        window.location.href = "./presentacion.php";
 
-        fetch('./enviar.php', {
+        await fetch('./enviar.php', {
         method: 'POST',
         body: formData
         })
         .then(response => response.json())
-        .catch(error => console.error('Error:', error))
-        .then(response => window.location.href = "./presentacion.php");
-
-        
+        .catch(error => console.error('Error:', error))   
     }
     
 });

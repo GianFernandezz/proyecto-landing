@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/alertify.min.css">
   <!-- Default theme -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+  <link rel="stylesheet" href="./assets/css/default.min.css"/>
   <script src="./assets/js/jquery-3.5.1.min.js"></script>
   
   
@@ -149,7 +149,7 @@
                       <h2>"Conoce cómo contar con un comité o supervisor de SST"</h2>
                       <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
                       
-                      <form action="enviar.php" method="post" id="formulario">
+                      <form action="enviar.php" method="post" id="formulario" autocomplete="off">
 
                           <input type="text" class="fon-campo" id="nombre" name="nombre" placeholder="Esccribe tu nombre completo">
 
